@@ -15,6 +15,7 @@
 		C525010C1E329808002B88CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C525010A1E329808002B88CD /* LaunchScreen.storyboard */; };
 		C52501171E329808002B88CD /* GitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52501161E329808002B88CD /* GitDemoTests.swift */; };
 		C52501221E329808002B88CD /* GitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52501211E329808002B88CD /* GitDemoUITests.swift */; };
+		C52501301E329D84002B88CD /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C525012F1E329D84002B88CD /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C525011D1E329808002B88CD /* GitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52501211E329808002B88CD /* GitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitDemoUITests.swift; sourceTree = "<group>"; };
 		C52501231E329808002B88CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C525012F1E329D84002B88CD /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				C525010A1E329808002B88CD /* LaunchScreen.storyboard */,
 				C525010D1E329808002B88CD /* Info.plist */,
 				C52501051E329808002B88CD /* GitDemo.xcdatamodeld */,
+				C525012F1E329D84002B88CD /* Test.swift */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C52501011E329808002B88CD /* ViewController.swift in Sources */,
+				C52501301E329D84002B88CD /* Test.swift in Sources */,
 				C52501071E329808002B88CD /* GitDemo.xcdatamodeld in Sources */,
 				C52500FF1E329808002B88CD /* AppDelegate.swift in Sources */,
 			);
@@ -509,6 +513,7 @@
 				C52501281E329808002B88CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C52501291E329808002B88CD /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				C525012B1E329808002B88CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C525012C1E329808002B88CD /* Build configuration list for PBXNativeTarget "GitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				C525012E1E329808002B88CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
